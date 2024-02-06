@@ -1,0 +1,212 @@
+/* reset*/ 
+html, body, div,span, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html{
+    width: auto;
+}
+body{
+    line-height: 1;
+    width:auto;
+}
+
+body{
+    -webkit-text-size-adjust:none ;
+}
+
+*, *:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+
+/**basic*/
+@-ms-viewport {
+    width: device-width;
+}
+body{
+    -ms-overflow-style: scrollbar;
+    font-family: Dubai;
+}
+
+@media screen and (max-width:480px) {
+    html, body{
+
+    }
+}
+h1{
+    position: inline;
+    flex-wrap: wrap;
+    font-size: 1.5rem !important;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(44,43,43,1);
+
+}
+ h3{
+    flex-wrap: wrap;
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem !important;
+}
+body nav{
+    border-width: 0px;
+    background-color: #252424 !important;
+    opacity: 255 !important;
+    font-size: large;
+}
+#home{
+    padding-top: 30vh;
+    top : 0px;
+    background-image:url("../background/back background.jpg") ;
+    background-size:cover;
+}
+#home .contianer{
+    
+    flex-wrap: wrap;
+
+}
+
+#Welcome_To {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3rem !important;
+    color: rgba(252,248,248,1);
+}
+#Welcome_To h1{
+    font-size: 3rem !important;
+    color: rgba(252,248,248,1);
+    z-index: 400 !important;
+}
+#Adham_Al-Hutheily_AH_FoodStuff {
+   
+    flex-wrap: wrap;
+    z-index: 400 !important;
+
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem !important;
+    color: rgba(252,248,248,1);
+}
+svg:not(:root) {
+    overflow: auto;
+    font-size: 4rem;
+    z-index: 400 !important;
+
+}
+.Polygon_1 {
+    font-size: 4rem;
+    overflow:auto;
+    font-size: medium;
+    width: 59px;
+    height: 33px;
+    transform: translate(21px, 17px) rotate(90deg);
+    transform-origin: center;
+}
+ #home img{
+    overflow: visible !important;
+ }
+.About_Adhem{
+    border-left-width:2px !important;
+    border-color: gray !important;
+    padding-left: 2rem;
+    color: black;
+}
+
+.About_Adhem h3{
+    flex-wrap: wrap;
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem !important;
+    color: black !important;
+}
+
+#Our_Goals{
+    background-image:url("../background/flat-lay-bunch-fresh-provision.png")  ;
+    background-size:cover;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem !important;
+    margin-left: 20%;
+
+}
+#Our_Goals .bg_div{
+    background-color: #252424c7 !important;
+}
+#Our_Goals h1, #Our_Goals h3{
+    color: #ffffff !important;
+    opacity: 1;
+    font-weight: lighter;
+}
+#Our_Goals h1{
+    font-size: 2rem !important;
+}
+#Our_Goals .goal_box{
+    background-color: #252424d9 !important;
+    opacity: .95;
+    border-radius: 2rem;
+    margin-left: .5rem;
+    padding: 1rem;
+}
+#mission_icon, #goal_icon{
+    margin-bottom: -2rem;
+}
+#goal_box-m, #goal_box-g {
+    max-width: 320px !important;
+    min-width: 250px !important;
+}
+#sections h1{
+    text-align: left;
+    font-family: Segoe UI;
+    font-size: 2.5rem;
+}
+#sections h1{
+    font-family: Segoe UI;
+    font-size: 2.5rem;
+}
+#section h3{
+    font-family: Dubai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    color: rgba(44,43,43,1);
+}
+
+#Contact{
+    background-color:  rgba(43,42,42,1);
+    color: rgba(252,248,248,1);
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+#Contact h1{
+    font-size: x-large !important;
+    font-family: Segoe UI;
+
+}
+#Contact h1, #Contact h2{
+    
+    color: rgba(252,248,248,1); 
+    margin-bottom: 1rem;
+}
+#Contact .Form-container{
+    max-width: 400px !important;
+}
+#Contact .div_row_form input{
+    font-size: larger !important;
+}
